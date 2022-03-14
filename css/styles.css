@@ -440,3 +440,29 @@ body {
     }
 }
 
+@media screen and (max-width: 480px) {
+
+    .ser {
+        padding: 22px 23px;
+    }
+
+    .ban .ban-ser {
+        height: 108vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center right;
+        object-fit: cover;
+    }
+
+    .ban .ser-mg img {
+        max-width: 330px;
+    }
+
+    .ban .ser-in h2 {
+        color: #ffffff;
+        font-size: 26px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+}
